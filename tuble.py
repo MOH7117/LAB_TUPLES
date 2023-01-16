@@ -36,3 +36,21 @@ print(tuple_numbers1,tuple_numbers2,tuple_numbers3)
 
 tuple_letters1, tuple_letters2, tuple_letters3 = tuple_letters
 print(tuple_letters1,tuple_letters2,tuple_letters3)
+
+
+
+
+
+
+#Use the index() method to find the index of the string "b" in the letters tuple.
+letter_b = tuple_letters.index("b")
+print(letter_b)
+
+#Use the count() method to find the number of occurrences of the integer 2 in the result tuple.
+count = tuple_numbers.count(2)
+print(count)
+
+#Use the enumerate() function to iterate over the result tuple, along with its index, and print out each item and its index
+enumerate_list=enumerate(result)
+for index,value in enumerate_list:
+    print(index,value)
